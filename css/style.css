@@ -15,4 +15,37 @@
   font-weight: 300; /* Light */
 }
 
+.locationContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+}
+
+.locationBox {
+  width: 18vh;
+  height: 18vh;
+  background-color: #68abdb;
+  border-radius: 20%;
+  margin: 2vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+}
+
+.countryText,
+.regionText {
+  padding-left: 3vh;
+}
+
+.countryText {
+  padding-top: 10vh;
+}
+
+.regionText {
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
