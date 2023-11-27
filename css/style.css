@@ -1,6 +1,7 @@
+@charset "UTF-8";
 .page_head {
   height: 30vh;
-  background-image: url("../image/page_head.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../image/page_head.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10,23 +11,55 @@
   padding-left: 5vh;
   font-family: "Noto Sans", sans-serif;
   font-weight: 700; /* Light */
+  color: #fefefe;
 }
 .page_head h3 {
   padding-left: 5vh;
   padding-top: 0vh;
   font-family: "Noto Sans", sans-serif;
   font-weight: 300; /* Light */
+  color: #fefefe;
+}
+
+.info {
+  display: flex;
+  align-items: center; /* 추가됨 */
+}
+.info h4 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300; /* Light */
+  padding-left: 3vh;
+  padding-top: 1vh;
+}
+.info .sort {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding-right: 3vh;
+}
+.info .sort button {
+  height: 3vh;
+  padding: 0 15px;
+  margin-left: 1vh;
+  background-color: #ddedff; /* 파란색 */
+  border: none; /* border 제거 */
+  color: #494949; /* 텍스트 색상을 흰색으로 변경 */
+  transition: background-color 0.3s; /* 배경색 변경 효과를 부드럽게 */
+  border-radius: 10px; /* 모서리 둥글게 */
+}
+.info .sort button:hover {
+  background-color: #0056b3; /* 짙은 파란색 */
 }
 
 .locationContainer {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5vh;
+  margin-top: 1vh;
 }
 
 .locationBox {
-  width: 26vh;
-  height: 26vh;
+  width: 20vh;
+  height: 20vh;
   border-radius: 20%;
   margin: 2vh;
   display: flex;
@@ -51,6 +84,15 @@
 
 .regionText {
   font-weight: bold;
+}
+
+.dateText {
+  padding-top: 2vh;
+  padding-left: 3vh;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300; /* Light */
+  color: #fefefe;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
