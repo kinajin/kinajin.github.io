@@ -30,9 +30,8 @@
 }
 
 .locationBox {
-  width: 18vh;
-  height: 18vh;
-  background-color: #68abdb;
+  width: 26vh;
+  height: 26vh;
   border-radius: 20%;
   margin: 2vh;
   display: flex;
@@ -41,7 +40,11 @@
   font-family: "Noto Sans", sans-serif;
   font-weight: 300;
   font-size: 16px;
-  color: #000;
+  color: #fefefe;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .countryText,
