@@ -4,9 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
   </head>
   <body>
-    hi!
+    <div class="location-info">
+      <div class="image-container">
+        <img class="locationImage" src="" alt="location image" />
+        <div class="overlay">
+          <h2 class="locationName"></h2>
+          <p class="locationCountry"></p>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe
+          class="mapFrame"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252428.94300022998!2d115.05980702154545!3d-8.672308686134471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409b0e5e80db%3A0xe27334e8ccb9374a!2z7J2464-E64Sk7Iuc7JWEIOuwnOumrCBEZW5wYXNhciBDaXR5LCDrjbTtjIzsgqzrpbQ!5e0!3m2!1sko!2skr!4v1701096907389!5m2!1sko!2skr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
     <script type="module" src="../detail.js"></script>
   </body>
 </html>

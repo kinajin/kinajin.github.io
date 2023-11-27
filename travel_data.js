@@ -5,6 +5,7 @@ export const locations = [
     image: "image/vatican.jpeg",
     link: "locations/vatican.html",
     date: "2022-07-09",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23755.91166111028!2d12.431504568635896!3d41.90384645767071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325890a57d42d3d%3A0x94f9ab23a7eb0!2z67CU7Yuw7Lm4IOyLnOq1rSAwMDEyMCBWYXRpY2FuIENpdHk!5e0!3m2!1sko!2skr!4v1701096138872!5m2!1sko!2skr",
   },
 
   {
@@ -13,6 +14,7 @@ export const locations = [
     image: "image/versailles.jpeg",
     link: "locations/versailles.html",
     date: "2023-08-19",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168181.93150258117!2d1.9547328619669788!3d48.80398111022592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67db475f420bd%3A0x869e00ad0d844aba!2z7ZSE656R7IqkIDc4MDAwIOuyoOultOyCrOycoA!5e0!3m2!1sko!2skr!4v1701096314945!5m2!1sko!2skr",
   },
   {
     country: "헝가리",
@@ -20,6 +22,7 @@ export const locations = [
     image: "image/tihany.jpeg",
     link: "locations/tihany.html",
     date: "2023-09-04",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87227.59218887264!2d17.78544492083056!3d46.90542729619732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769bb7f616e10ad%3A0x400c4290c1e5700!2z7Zed6rCA66asIDgyMzcg7Yuw7ZeI64uI!5e0!3m2!1sko!2skr!4v1701096386076!5m2!1sko!2skr",
   },
   {
     country: "스위스",
@@ -27,6 +30,7 @@ export const locations = [
     image: "image/Schilthorn.jpeg",
     link: "locations/Schilthorn.html",
     date: "2023-08-24",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43896.03630023966!2d7.794165724343321!3d46.557532005831916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478fa0aa046345b1%3A0xe0ac87e82a107f2!2z7Im07Yq47Zi466W4!5e0!3m2!1sko!2skr!4v1701096456630!5m2!1sko!2skr",
   },
   {
     country: "대한민국",
@@ -34,6 +38,7 @@ export const locations = [
     image: "image/gyeongju.jpeg",
     link: "locations/gyeongju.html",
     date: "2023-11-12",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d827796.0142721898!2d128.58746117296167!3d35.85934550157055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35664e46f80d031d%3A0x371596eecfd0c809!2z6rK97IOB67aB64-EIOqyveyjvOyLnA!5e0!3m2!1sko!2skr!4v1701096522511!5m2!1sko!2skr",
   },
   {
     country: "이탈리아",
@@ -41,6 +46,7 @@ export const locations = [
     image: "image/rome.jpeg",
     link: "locations/rome.html",
     date: "2022-07-10",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d760125.2482845677!2d11.878010333851988!3d41.909215250617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2z7J207YOI66as7JWEIOuhnOuniA!5e0!3m2!1sko!2skr!4v1701096599058!5m2!1sko!2skr",
   },
   {
     country: "카타르",
@@ -48,6 +54,7 @@ export const locations = [
     image: "image/doha.jpeg",
     link: "locations/doha.html",
     date: "2022-11-25",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461771.9340366797!2d51.18303764414625!3d25.284265372087248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x44d9319f78cfd4b1!2z7Lm07YOA66W0IOuPhO2VmA!5e0!3m2!1sko!2skr!4v1701096627351!5m2!1sko!2skr",
   },
   {
     country: "오스트리아",
@@ -55,6 +62,7 @@ export const locations = [
     image: "image/vienna.jpeg",
     link: "locations/vienna.html",
     date: "2023-08-28",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170130.20893949282!2d16.214867629959706!3d48.22039579576126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079e5136ca9f%3A0xfdc2e58a51a25b46!2z7Jik7Iqk7Yq466as7JWEIOu5iA!5e0!3m2!1sko!2skr!4v1701097637356!5m2!1sko!2skr",
   },
   {
     country: "프랑스",
@@ -62,6 +70,7 @@ export const locations = [
     image: "image/annecy.jpeg",
     link: "locations/annecy.html",
     date: "2023-08-23",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88866.14891350514!2d6.046274525065221!3d45.889969998389866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b8ffa1c0551c9%3A0x42781681620534ba!2z7ZSE656R7IqkIOyVhOuEpOyUqCDslYjsi5w!5e0!3m2!1sko!2skr!4v1701096730741!5m2!1sko!2skr",
   },
   {
     country: "포르투갈",
@@ -69,6 +78,7 @@ export const locations = [
     image: "image/setubal.jpeg",
     link: "locations/setubal.html",
     date: "2023-08-12",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d399578.82888467715!2d-9.223879182043177!3d38.51740790801991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd194307e49642f1%3A0xeabefa3d424489ab!2z7Y-s66W07Yis6rCIIOyEuO2IrOuwnA!5e0!3m2!1sko!2skr!4v1701096786584!5m2!1sko!2skr",
   },
   {
     country: "네덜란드",
@@ -76,6 +86,7 @@ export const locations = [
     image: "image/amsterdam.jpeg",
     link: "locations/amsterdam.html",
     date: "2023-08-06",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311919.4630385994!2d4.575019668912856!3d52.35462843329727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2z64Sk642c656A65OcIOyVlOyKpO2FjOultOuLtA!5e0!3m2!1sko!2skr!4v1701096828951!5m2!1sko!2skr",
   },
   {
     country: "포르투갈",
@@ -83,6 +94,7 @@ export const locations = [
     image: "image/lisbon.jpeg",
     link: "locations/lisbon.html",
     date: "2023-08-16",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199158.32245008735!2d-9.324199469275!3d38.74423202570307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2z7Y-s66W07Yis6rCIIOumrOyKpOuzuA!5e0!3m2!1sko!2skr!4v1701096877176!5m2!1sko!2skr",
   },
   {
     country: "인도네시아",
@@ -90,5 +102,6 @@ export const locations = [
     image: "image/denpasar.jpeg",
     link: "locations/denpasar.html",
     date: "2022-06-09",
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252428.94300022998!2d115.05980702154545!3d-8.672308686134471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409b0e5e80db%3A0xe27334e8ccb9374a!2z7J2464-E64Sk7Iuc7JWEIOuwnOumrCBEZW5wYXNhciBDaXR5LCDrjbTtjIzsgqzrpbQ!5e0!3m2!1sko!2skr!4v1701096907389!5m2!1sko!2skr",
   },
 ];
