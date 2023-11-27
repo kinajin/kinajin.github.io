@@ -24,8 +24,6 @@ function renderLocations(locations) {
     countryText.innerText = `${location.country}`;
     regionText.innerText = `${location.region}`;
 
-    //
-
     const visitDate = new Date(location.date);
     const monthNames = [
       "January",
@@ -47,17 +45,18 @@ function renderLocations(locations) {
     } ${visitDate.getDate()}, ${visitDate.getFullYear()}`;
 
     dateText.innerText = `${formattedDate}`;
-    //
-
-    //   dateText.innerText = `${location.date}`;
 
     locationBox.appendChild(countryText);
     locationBox.appendChild(regionText);
     locationBox.appendChild(dateText);
     locationContainer.appendChild(locationBox);
 
+    // locationBox.addEventListener("click", () => {
+    //   window.location.href = location.link;
+    // });
+
     locationBox.addEventListener("click", () => {
-      window.location.href = location.link;
+      window.location.href = `../locations/detail.html?location=${location.region}`;
     });
   });
 }
