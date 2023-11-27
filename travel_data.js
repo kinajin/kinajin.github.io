@@ -45,19 +45,19 @@ export const locations = [
   {
     country: "오스트리아",
     region: "빈",
-    image: "image/vienna.jpg",
+    image: "image/vienna.jpeg",
     link: "locations/vienna.html",
   },
   {
     country: "프랑스",
     region: "아네씨",
-    image: "image/annecy.jpg",
+    image: "image/annecy.jpeg",
     link: "locations/annecy.html",
   },
   {
     country: "포르투갈",
     region: "세투발",
-    image: "image/setubal.jpg",
+    image: "image/setubal.jpeg",
     link: "locations/setubal.html",
   },
   {
@@ -69,7 +69,7 @@ export const locations = [
   {
     country: "포르투갈",
     region: "리스본",
-    image: "image/lisbon.jpg",
+    image: "image/lisbon.jpeg",
     link: "locations/lisbon.html",
   },
 ];
