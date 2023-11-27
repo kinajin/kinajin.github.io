@@ -1,6 +1,9 @@
 .page_head {
   height: 30vh;
-  background-color: #bee3ff;
+  background-image: url("../image/page_head.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .page_head h2 {
   padding-top: 15vh;

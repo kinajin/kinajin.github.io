@@ -72,4 +72,10 @@ export const locations = [
     image: "image/lisbon.jpeg",
     link: "locations/lisbon.html",
   },
+  {
+    country: "인도네시아",
+    region: "덴파사르",
+    image: "image/denpasar.jpeg",
+    link: "locations/denpasar.html",
+  },
 ];
